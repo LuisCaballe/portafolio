@@ -1,0 +1,25 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.header a {
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 1rem 3rem;
+  border-radius: 999px;
+  letter-spacing: 0.05rem;
+  background-color: var(--primary-color);
+}
+
+.header a:hover {
+  background-color: var(--secondary-color);
+}
