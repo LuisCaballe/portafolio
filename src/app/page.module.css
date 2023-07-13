@@ -7,6 +7,12 @@
   gap: 5rem;
 }
 
+.separator {
+  background-color: var(--secondary-color);
+  height: 4px;
+  border-radius: 999px;
+}
+
 .button {
   color: #fff;
   font-size: 1rem;
