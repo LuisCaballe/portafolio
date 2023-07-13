@@ -1,0 +1,13 @@
+.button {
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 1rem 3rem;
+  border-radius: 999px;
+  letter-spacing: 0.05rem;
+  background-color: var(--primary-color);
+}
+
+.button:hover {
+  background-color: var(--secondary-color);
+}

@@ -1,10 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;700&family=Space+Mono:wght@400;700&display=swap");
 
-* {
-  box-sizing: border-box;
-  transition-duration: 0.3s;
-}
-
 :root {
   --light-color: #fff7f0;
   --primary-color: #000;
@@ -12,11 +7,19 @@
   --primary-font: "Plus Jakarta Sans", "sans-serif";
 }
 
-html,
-body {
+* {
+  box-sizing: border-box;
   padding: 0;
   margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
   overflow-x: hidden;
+}
+
+body {
   scroll-behavior: smooth;
   background-color: var(--light-color);
   color: var(--primary-color);
@@ -27,17 +30,6 @@ a {
   color: inherit;
   text-decoration: none;
   cursor: pointer;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-figure {
-  margin: 0;
 }
 
 button {
