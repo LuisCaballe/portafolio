@@ -21,6 +21,6 @@
   background-color: var(--secondary-color);
 }
 
-.content_text {
-  color: var(--tertiary-color);
+.secondary_text {
+  color: var(--secondary-color);
 }
