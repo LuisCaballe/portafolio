@@ -4,6 +4,7 @@
   --light-color: #fff7f0;
   --primary-color: #000;
   --secondary-color: #3354fe;
+  --tertiary-color: #7a746e;
   --primary-font: "Plus Jakarta Sans", "sans-serif";
 }
 
@@ -39,8 +40,6 @@ button {
   background-color: transparent;
 }
 
-.container {
-  max-width: 1100px;
-  margin: 0 auto;
-  padding: 5rem;
+h2 {
+  font-size: 3rem;
 }
