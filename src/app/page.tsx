@@ -8,6 +8,7 @@ export default function Home() {
       <Header />
       <span className={styles.separator}></span>
       <Hero />
+      <span className={styles.separator}></span>
     </>
   );
 }
