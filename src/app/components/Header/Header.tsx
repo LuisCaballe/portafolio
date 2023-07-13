@@ -2,6 +2,7 @@ import React from "react";
 import Logo from "../../icon.svg";
 import Image from "next/image";
 import styles from "./Header.module.css";
+import pageStyles from "../../page.module.css";
 
 export const Header = (): React.ReactElement => {
   return (
@@ -13,7 +14,7 @@ export const Header = (): React.ReactElement => {
           Portfolio
         </h1>
       </div>
-      <a>Contact me!</a>
+      <a className={pageStyles.button}>Contact me!</a>
     </header>
   );
 };
