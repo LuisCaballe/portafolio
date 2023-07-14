@@ -1,15 +1,15 @@
-import { Header } from "../components/Header/Header";
-import Hero from "../components/Hero/Hero";
-import WorksWeb from "../components/WorksWeb/WorksWeb";
-import styles from "./page.module.css";
+import Header from "../components/Header";
+import Hero from "../components/Hero";
+import WorksWeb from "../components/WorksWeb";
+import "../sass/styles.scss";
 
 export default function Home() {
   return (
     <>
       <Header />
-      <span className={styles.separator}></span>
+      <span className="separator"></span>
       <Hero />
-      <h3 className={styles.title__line}>My Work on web</h3>
+      <h3 className="title-line">My Work on web</h3>
       <WorksWeb />
     </>
   );

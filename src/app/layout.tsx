@@ -1,10 +1,10 @@
-import "./globals.css";
 import type { Metadata } from "next";
-import pageStyles from "./page.module.css";
+import "../sass/styles.scss";
 
 export const metadata: Metadata = {
   title: "Luis' portfolio",
-  description: "Luis Caballé's personal website",
+  description:
+    "Luis Caballé's online portfolio. A sample of graphic design and web development work I have done to date.",
 };
 
 export default function RootLayout({
@@ -15,7 +15,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <div className={pageStyles.container}>{children}</div>
+        <div className="main-container">{children}</div>
       </body>
     </html>
   );
