@@ -1,8 +1,8 @@
 import React from "react";
-import Logo from "../../icon.svg";
+import Logo from "../../app/icon.svg";
 import Image from "next/image";
 import styles from "./Header.module.css";
-import pageStyles from "../../page.module.css";
+import pageStyles from "../../app/page.module.css";
 
 export const Header = (): React.ReactElement => {
   return (
@@ -11,7 +11,7 @@ export const Header = (): React.ReactElement => {
         <Image src={Logo} alt="Luis' logo" priority={true} />
         <h1>
           Luis Caballé <br />
-          Portfolio
+          <span className={pageStyles.secondary_text}>Portfolio</span>
         </h1>
       </div>
       <a className={pageStyles.button}>Contact me!</a>
