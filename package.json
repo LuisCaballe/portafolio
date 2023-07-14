@@ -25,6 +25,7 @@
     "@commitlint/cli": "^17.6.6",
     "@commitlint/config-conventional": "^17.6.6",
     "eslint-config-prettier": "^8.8.0",
-    "husky": "^8.0.0"
+    "husky": "^8.0.0",
+    "sass": "^1.63.6"
   }
 }

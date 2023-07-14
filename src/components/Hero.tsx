@@ -1,19 +1,19 @@
 import React from "react";
 import styles from "./Hero.module.css";
-import pageStyles from "../../app/page.module.css";
+import "../sass/styles.scss";
 
-const Hero = () => {
+const Hero = (): React.ReactElement => {
   return (
-    <section className={styles.hero_section}>
+    <section className="hero-section">
       <p>Hi, nice to meet you! My name is:</p>
       <h2>
         Luis Caballé.
         <br />
         I&apos;m a{" "}
-        <span className={pageStyles.secondary_text}>Graphic Designer</span>
+        <span className="text--secondary-color">Graphic Designer</span>
         <br />
         and a{" "}
-        <span className={pageStyles.secondary_text}>Full Stack Developer</span>.
+        <span className="text--secondary-color">Full Stack Developer</span>.
       </h2>
       <p>
         With over ten years of experience in various design disciplines,
