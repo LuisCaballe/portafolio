@@ -24,6 +24,7 @@
 }
 
 .title-line {
+  font-size: 1.5rem;
   color: variables.$secondary-color;
   position: relative;
   overflow: hidden;
@@ -70,26 +71,41 @@
   background-color: #fff;
   border-radius: 20px;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 
   &__content {
-    padding: 1rem;
+    padding: 1.5rem;
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
+    height: 100%;
+  }
+
+  &__title {
+    font-size: 1.5rem;
+    color: variables.$secondary-color;
   }
 
   &__links {
     display: flex;
+    align-items: flex-end;
     justify-content: center;
+    flex-grow: 2;
     gap: 2rem;
+
+    > .link {
+      margin-top: 1rem;
+    }
   }
-}
 
-.image-container {
-  position: relative;
-  display: block;
-}
+  &__image-container {
+    position: relative;
+    display: block;
+  }
 
-.image {
-  position: relative !important;
+  &__image {
+    position: relative !important;
+  }
 }
