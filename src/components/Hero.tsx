@@ -5,9 +5,8 @@ import "../sass/styles.scss";
 const Hero = (): React.ReactElement => {
   return (
     <section className="hero-section">
-      <p>Hi, nice to meet you! My name is:</p>
       <h2>
-        Luis Caballé.
+        I&apos;m Luis Caballé.
         <br />
         I&apos;m a{" "}
         <span className="text--secondary-color">Graphic Designer</span>

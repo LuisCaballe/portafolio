@@ -7,7 +7,6 @@ export default function Home() {
   return (
     <>
       <Header />
-      <span className="separator"></span>
       <Hero />
       <h3 className="title-line">My Work on web</h3>
       <WorksWeb />
