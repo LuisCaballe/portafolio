@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "../sass/styles.scss";
+import Header from "@/components/Header";
 
 export const metadata: Metadata = {
   title: "Luis' portfolio",
@@ -15,7 +16,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <div className="main-container">{children}</div>
+        <div className="main-container">
+          <Header />
+          {children}
+        </div>
       </body>
     </html>
   );
