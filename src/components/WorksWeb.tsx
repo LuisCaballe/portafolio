@@ -10,7 +10,7 @@ const WorksWeb = (): React.ReactElement => {
           <div className="card__image-container">
             <Image
               className="card__image"
-              src="/work-web-gc.webp"
+              src="/images/web-projects/work-web-gc.webp"
               fill
               alt={`Grandma's Cookbook's desktop screenshot`}
               sizes="(max-width: 850px) 75vw, (max-width: 1200px) 30vw"
@@ -46,7 +46,7 @@ const WorksWeb = (): React.ReactElement => {
           <div className="card__image-container">
             <Image
               className="card__image"
-              src="/work-web-pp.webp"
+              src="/images/web-projects/work-web-pp.webp"
               fill
               alt={`Pasapalabra Game's desktop screenshot`}
               sizes="(max-width: 850px) 75vw, (max-width: 1200px) 30vw"
@@ -82,7 +82,7 @@ const WorksWeb = (): React.ReactElement => {
           <div className="card__image-container">
             <Image
               className="card__image"
-              src="/work-web-c4.webp"
+              src="/images/web-projects/work-web-c4.webp"
               fill
               alt={`Connect 4's desktop screenshot`}
               sizes="(max-width: 850px) 75vw, (max-width: 1200px) 30vw"
@@ -119,7 +119,7 @@ const WorksWeb = (): React.ReactElement => {
           <div className="card__image-container">
             <Image
               className="card__image"
-              src="/work-web-ca.webp"
+              src="/images/web-projects/work-web-ca.webp"
               fill
               alt={`Calculator's desktop screenshot`}
               sizes="(max-width: 850px) 75vw, (max-width: 1200px) 30vw"
@@ -156,7 +156,7 @@ const WorksWeb = (): React.ReactElement => {
           <div className="card__image-container">
             <Image
               className="card__image"
-              src="/work-web-gc.webp"
+              src="/images/web-projects/work-web-gc.webp"
               fill
               alt={`Grandma's Cookbook's desktop screenshot`}
               sizes="(max-width: 850px) 75vw, (max-width: 1200px) 30vw"

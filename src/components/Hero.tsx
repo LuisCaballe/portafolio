@@ -1,5 +1,4 @@
 import React from "react";
-import styles from "./Hero.module.css";
 import "../sass/styles.scss";
 
 const Hero = (): React.ReactElement => {
