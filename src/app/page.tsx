@@ -6,11 +6,10 @@ import "../sass/styles.scss";
 
 export default function Home() {
   return (
-    <>
+    <main>
       <Hero />
-      <h3 className="title-line">Web development projects</h3>
       <WorksWeb />
       <WorksDesign />
-    </>
+    </main>
   );
 }

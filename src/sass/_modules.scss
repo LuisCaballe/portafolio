@@ -23,6 +23,7 @@
   color: variables.$secondary-color;
   position: relative;
   overflow: hidden;
+  margin-block: 5rem;
 }
 
 .title-line::after {
@@ -59,6 +60,10 @@
   grid-template-columns: repeat(auto-fill, minmax(300px, auto));
   grid-template-rows: 1fr auto;
   gap: 2rem;
+
+  &--design {
+    grid-template-columns: repeat(auto-fill, minmax(185px, auto));
+  }
 }
 
 .card {

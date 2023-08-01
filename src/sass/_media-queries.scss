@@ -1,0 +1,5 @@
+@media screen and (max-width: 580px) {
+  .card-container--design {
+    grid-template-columns: repeat(auto-fill, minmax(150px, auto));
+  }
+}
