@@ -19,7 +19,7 @@ const WorksDesign = (): React.ReactElement => {
               <div className="card__info">
                 <h3>Weedom</h3>
                 <span className="card__info-separator"></span>
-                <p>corporate identity</p>
+                <p>brand identity</p>
               </div>
             </div>
           </Link>
@@ -57,7 +57,7 @@ const WorksDesign = (): React.ReactElement => {
               <div className="card__info">
                 <h3>Més Que Paraules</h3>
                 <span className="card__info-separator"></span>
-                <p>corporate identity</p>
+                <p>brand identity</p>
               </div>
             </div>
           </Link>
@@ -76,7 +76,7 @@ const WorksDesign = (): React.ReactElement => {
               <div className="card__info">
                 <h3>Sentits Bcn</h3>
                 <span className="card__info-separator"></span>
-                <p>corporate identity</p>
+                <p>brand identity</p>
               </div>
             </div>
           </Link>
@@ -89,13 +89,13 @@ const WorksDesign = (): React.ReactElement => {
                 className="card__image"
                 src="/images/design-projects/thumbs/thumb-logos.jpg"
                 fill
-                alt="Sentits Bcn"
+                alt="Logos"
                 sizes="(max-width: 510px) 65vw, (max-width: 800px) 40vw, 26vw "
               />
               <div className="card__info">
                 <h3>Logos</h3>
                 <span className="card__info-separator"></span>
-                <p>Logos design</p>
+                <p>logo design</p>
               </div>
             </div>
           </Link>
@@ -114,7 +114,7 @@ const WorksDesign = (): React.ReactElement => {
               <div className="card__info">
                 <h3>Rodrigo 50</h3>
                 <span className="card__info-separator"></span>
-                <p>corporate identity</p>
+                <p>brand identity</p>
               </div>
             </div>
           </Link>
@@ -133,7 +133,7 @@ const WorksDesign = (): React.ReactElement => {
               <div className="card__info">
                 <h3>Airam</h3>
                 <span className="card__info-separator"></span>
-                <p>corporate identity</p>
+                <p>brand identity</p>
               </div>
             </div>
           </Link>
@@ -171,7 +171,7 @@ const WorksDesign = (): React.ReactElement => {
               <div className="card__info">
                 <h3>Brotes Verdes</h3>
                 <span className="card__info-separator"></span>
-                <p>corporate identity</p>
+                <p>brand identity</p>
               </div>
             </div>
           </Link>
@@ -190,7 +190,7 @@ const WorksDesign = (): React.ReactElement => {
               <div className="card__info">
                 <h3>Salva a caga</h3>
                 <span className="card__info-separator"></span>
-                <p>corporate identity</p>
+                <p>brand identity</p>
               </div>
             </div>
           </Link>
@@ -209,7 +209,7 @@ const WorksDesign = (): React.ReactElement => {
               <div className="card__info">
                 <h3>Grupo Much More</h3>
                 <span className="card__info-separator"></span>
-                <p>corporate identity</p>
+                <p>brand identity</p>
               </div>
             </div>
           </Link>

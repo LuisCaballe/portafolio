@@ -143,3 +143,26 @@
     opacity: 1;
   }
 }
+
+.design-project {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+  &__title {
+    font-size: 2rem;
+  }
+
+  &__text-copyright {
+    font-size: 0.85rem;
+    font-style: oblique;
+  }
+
+  &__image-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    margin-top: 1rem;
+  }
+}
