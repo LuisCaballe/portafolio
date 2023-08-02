@@ -95,7 +95,7 @@ const WorksDesign = (): React.ReactElement => {
               <div className="card__info">
                 <h3>Logos</h3>
                 <span className="card__info-separator"></span>
-                <p>Logos design</p>
+                <p>logo design</p>
               </div>
             </div>
           </Link>
