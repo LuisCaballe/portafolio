@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Footer = (): React.ReactElement => {
   return (
-    <footer>
+    <footer id="contact">
       <div className="footer">
         <div className="footer__container">
           <h3 className="title-line title-line--contact">Contact</h3>

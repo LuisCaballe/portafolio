@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const WorksDesign = (): React.ReactElement => {
   return (
-    <section>
+    <section id="design">
       <h3 className="title-line">Graphic design projects</h3>
       <div className="card-container card-container--design">
         <article className="card">

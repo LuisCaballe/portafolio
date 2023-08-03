@@ -12,6 +12,33 @@
   }
 }
 
+.navbar {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+
+  &__link-container {
+    padding-block: 0.5rem;
+    background-image: linear-gradient(
+      variables.$secondary-color,
+      variables.$secondary-color
+    );
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% variables.$border-stroke;
+    transition: background-size 0.3s ease 0s;
+
+    &:hover {
+      background-size: 100% variables.$border-stroke;
+    }
+  }
+
+  &__link {
+    font-weight: 700;
+    letter-spacing: 0.05rem;
+  }
+}
+
 .hero-section {
   display: flex;
   flex-direction: column;
@@ -42,13 +69,11 @@
 
 .link {
   color: #fff;
-  font-size: 1rem;
   font-weight: 700;
   padding: 1rem 2rem;
   border-radius: 999px;
   letter-spacing: 0.05rem;
   background-color: variables.$primary-color;
-  display: inline-block;
 }
 
 .link:hover {

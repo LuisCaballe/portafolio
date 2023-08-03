@@ -5,7 +5,7 @@ import "../sass/styles.scss";
 const WorksWeb = (): React.ReactElement => {
   return (
     <>
-      <section>
+      <section id="web">
         <h3 className="title-line">Web development projects</h3>
         <div className="card-container">
           <article className="card">

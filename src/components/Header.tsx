@@ -22,7 +22,21 @@ export const Header = (): React.ReactElement => {
           <span className="text--secondary-color">Portfolio</span>
         </h1>
       </div>
-      <a className="link">Contact me!</a>
+      <nav className="navbar">
+        <div className="navbar__link-container">
+          <Link href="/#web" className="navbar__link">
+            Web
+          </Link>
+        </div>
+        <div className="navbar__link-container">
+          <Link href="/#design" className="navbar__link">
+            Design
+          </Link>
+        </div>
+        <Link href="#contact" className="link">
+          Contact
+        </Link>
+      </nav>
     </header>
   );
 };
