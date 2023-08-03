@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import "../sass/styles.scss";
+import Link from "next/link";
 
 const WorksWeb = (): React.ReactElement => {
   return (
@@ -26,20 +27,20 @@ const WorksWeb = (): React.ReactElement => {
                 preserving their culinary heritage.
               </p>
               <div className="card__links">
-                <a
+                <Link
                   className="link"
                   href="https://github.com/LuisCaballe/grandma-cookbook-front"
                   target="_blank"
                 >
                   GitHub
-                </a>
-                <a
+                </Link>
+                <Link
                   className="link"
                   href="https://grandmas-cookbook.netlify.app"
                   target="_blank"
                 >
                   Demo
-                </a>
+                </Link>
               </div>
             </div>
           </article>
@@ -62,20 +63,20 @@ const WorksWeb = (): React.ReactElement => {
                 popular Spanish TV show.
               </p>
               <div className="card__links">
-                <a
+                <Link
                   className="link"
                   href="https://github.com/LuisCaballe/project-pasapalabra-HTML-CSS-JS"
                   target="_blank"
                 >
                   GitHub
-                </a>
-                <a
+                </Link>
+                <Link
                   className="link"
-                  href="http://luiscaballe.com/isdi/pasapalabra/index.html"
+                  href="https://luiscaballe.github.io/project-pasapalabra-HTML-CSS-JS/"
                   target="_blank"
                 >
                   Demo
-                </a>
+                </Link>
               </div>
             </div>
           </article>
@@ -99,20 +100,20 @@ const WorksWeb = (): React.ReactElement => {
                 against the machine.
               </p>
               <div className="card__links">
-                <a
+                <Link
                   className="link"
-                  href="https://github.com/LuisCaballe/project-pasapalabra-HTML-CSS-JS"
+                  href="https://github.com/LuisCaballe/conecta-4.git"
                   target="_blank"
                 >
                   GitHub
-                </a>
-                <a
+                </Link>
+                <Link
                   className="link"
-                  href="http://luiscaballe.com/isdi/conecta4/"
+                  href="https://luiscaballe.github.io/conecta-4/"
                   target="_blank"
                 >
                   Demo
-                </a>
+                </Link>
               </div>
             </div>
           </article>
@@ -136,20 +137,20 @@ const WorksWeb = (): React.ReactElement => {
                 functionality. I also added full keyboard functionality.
               </p>
               <div className="card__links">
-                <a
+                <Link
                   className="link"
                   href="https://github.com/LuisCaballe/project-calculator-HTML-CSS-JS"
                   target="_blank"
                 >
                   GitHub
-                </a>
-                <a
+                </Link>
+                <Link
                   className="link"
-                  href="http://luiscaballe.com/isdi/calculator/"
+                  href="https://luiscaballe.github.io/project-calculator-HTML-CSS-JS/"
                   target="_blank"
                 >
                   Demo
-                </a>
+                </Link>
               </div>
             </div>
           </article>
@@ -158,9 +159,9 @@ const WorksWeb = (): React.ReactElement => {
             <div className="card__image-container">
               <Image
                 className="card__image"
-                src="/images/web-projects/work-web-gc.webp"
+                src="/images/web-projects/work-web-pf.webp"
                 fill
-                alt={`Grandma's Cookbook's desktop screenshot`}
+                alt="Luis Caballe's portfolio screenshot"
                 sizes="(max-width: 850px) 75vw, (max-width: 1200px) 30vw"
               />
             </div>
@@ -173,13 +174,13 @@ const WorksWeb = (): React.ReactElement => {
                 clear and simple way.
               </p>
               <div className="card__links">
-                <a
+                <Link
                   className="link"
                   href="https://github.com/LuisCaballe/portafolio"
                   target="_blank"
                 >
                   GitHub
-                </a>
+                </Link>
               </div>
             </div>
           </article>

@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const Footer = (): React.ReactElement => {
   return (
@@ -15,7 +16,10 @@ const Footer = (): React.ReactElement => {
               hola@luiscaballe.com
             </span>
             <p className="footer__text">or LinkedIn.</p>
-            <a href="https://www.linkedin.com/in/luiscaballe" target="_blank">
+            <Link
+              href="https://www.linkedin.com/in/luiscaballe"
+              target="_blank"
+            >
               <Image
                 className="footer__link"
                 src="/images/linkedin.svg"
@@ -23,7 +27,7 @@ const Footer = (): React.ReactElement => {
                 width="40"
                 height="40"
               ></Image>
-            </a>
+            </Link>
           </div>
         </div>
       </div>
