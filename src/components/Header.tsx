@@ -10,19 +10,34 @@ export const Header = (): React.ReactElement => {
       <div className="header__logo">
         <Link href="/">
           <Image
+            className="header__logo-imago"
             src={Logo}
-            alt="Luis' logo"
+            alt="Luis Caballé's logo"
             priority={true}
             width="75"
             height="70"
           />
         </Link>
-        <h1>
+        <h1 className="header__logo-title">
           Luis Caballé <br />
           <span className="text--secondary-color">Portfolio</span>
         </h1>
       </div>
-      <a className="link">Contact me!</a>
+      <nav className="navbar">
+        <div className="navbar__link-container">
+          <Link href="/#web" className="navbar__link">
+            Web
+          </Link>
+        </div>
+        <div className="navbar__link-container">
+          <Link href="/#design" className="navbar__link">
+            Design
+          </Link>
+        </div>
+        <Link href="#contact" className="link">
+          Contact
+        </Link>
+      </nav>
     </header>
   );
 };
