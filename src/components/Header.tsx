@@ -9,7 +9,13 @@ export const Header = (): React.ReactElement => {
     <header className="header">
       <div className="header__logo">
         <Link href="/">
-          <Image src={Logo} alt="Luis' logo" priority={true} />
+          <Image
+            src={Logo}
+            alt="Luis' logo"
+            priority={true}
+            width="75"
+            height="70"
+          />
         </Link>
         <h1>
           Luis Caballé <br />
