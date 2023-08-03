@@ -4,11 +4,22 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 3rem;
 
   &__logo {
     display: flex;
     align-items: center;
-    gap: 1rem;
+    flex-wrap: wrap;
+  }
+
+  &__logo-imago {
+    min-width: 75px;
+    margin-right: 1rem;
+  }
+
+  &__logo-title {
+    font-size: 32px;
   }
 }
 
@@ -16,6 +27,7 @@
   display: flex;
   gap: 3rem;
   align-items: center;
+  flex-wrap: wrap;
 
   &__link-container {
     padding-block: 0.5rem;
@@ -26,7 +38,7 @@
     background-position: 50% 100%;
     background-repeat: no-repeat;
     background-size: 0% variables.$border-stroke;
-    transition: background-size 0.3s ease 0s;
+    transition: background-size 0.2s ease 0s;
 
     &:hover {
       background-size: 100% variables.$border-stroke;
@@ -74,6 +86,7 @@
   border-radius: 999px;
   letter-spacing: 0.05rem;
   background-color: variables.$primary-color;
+  transition: background-color 0.2s ease 0s;
 }
 
 .link:hover {
