@@ -1,7 +1,6 @@
 import React from "react";
 import Logo from "../app/icon.svg";
 import Image from "next/image";
-import "../sass/styles.scss";
 import Link from "next/link";
 
 export const Header = (): React.ReactElement => {

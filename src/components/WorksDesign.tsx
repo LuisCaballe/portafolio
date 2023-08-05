@@ -4,12 +4,15 @@ import Link from "next/link";
 const WorksDesign = (): React.ReactElement => {
   return (
     <section id="design">
-      <h3 className="title-line">Graphic design projects</h3>
+      <h3 className="title-line" data-aos="fade-right">
+        Graphic design projects
+      </h3>
       <div className="card-container card-container--design">
-        <article className="card">
+        <article className="card" data-aos="fade-up">
           <Link href="/design-projects/weedom">
             <div className="card__image-container card__image-container--design">
               <Image
+                quality={100}
                 className="card__image"
                 src="/images/design-projects/thumbs/thumb-weedom.jpg"
                 fill
@@ -25,10 +28,11 @@ const WorksDesign = (): React.ReactElement => {
           </Link>
         </article>
 
-        <article className="card">
+        <article className="card" data-aos="fade-up">
           <Link href="/design-projects/dd-tea">
             <div className="card__image-container card__image-container--design">
               <Image
+                quality={100}
                 className="card__image"
                 src="/images/design-projects/thumbs/thumb-dd-tea.jpg"
                 fill
@@ -44,10 +48,11 @@ const WorksDesign = (): React.ReactElement => {
           </Link>
         </article>
 
-        <article className="card">
+        <article className="card" data-aos="fade-up">
           <Link href="/design-projects/mqp">
             <div className="card__image-container card__image-container--design">
               <Image
+                quality={100}
                 className="card__image"
                 src="/images/design-projects/thumbs/thumb-mqp.jpg"
                 fill
@@ -63,10 +68,11 @@ const WorksDesign = (): React.ReactElement => {
           </Link>
         </article>
 
-        <article className="card">
+        <article className="card" data-aos="fade-up">
           <Link href="/design-projects/sentits-bcn">
             <div className="card__image-container card__image-container--design">
               <Image
+                quality={100}
                 className="card__image"
                 src="/images/design-projects/thumbs/thumb-sentits-bcn.jpg"
                 fill
@@ -82,10 +88,11 @@ const WorksDesign = (): React.ReactElement => {
           </Link>
         </article>
 
-        <article className="card">
+        <article className="card" data-aos="fade-up">
           <Link href="/design-projects/logos">
             <div className="card__image-container card__image-container--design">
               <Image
+                quality={100}
                 className="card__image"
                 src="/images/design-projects/thumbs/thumb-logos.jpg"
                 fill
@@ -101,10 +108,11 @@ const WorksDesign = (): React.ReactElement => {
           </Link>
         </article>
 
-        <article className="card">
+        <article className="card" data-aos="fade-up">
           <Link href="/design-projects/rodrigo-50">
             <div className="card__image-container card__image-container--design">
               <Image
+                quality={100}
                 className="card__image"
                 src="/images/design-projects/thumbs/thumb-rodrigo-50.jpg"
                 fill
@@ -120,10 +128,11 @@ const WorksDesign = (): React.ReactElement => {
           </Link>
         </article>
 
-        <article className="card">
+        <article className="card" data-aos="fade-up">
           <Link href="/design-projects/airam">
             <div className="card__image-container card__image-container--design">
               <Image
+                quality={100}
                 className="card__image"
                 src="/images/design-projects/thumbs/thumb-airam.jpg"
                 fill
@@ -139,10 +148,11 @@ const WorksDesign = (): React.ReactElement => {
           </Link>
         </article>
 
-        <article className="card">
+        <article className="card" data-aos="fade-up">
           <Link href="/design-projects/dd-menu">
             <div className="card__image-container card__image-container--design">
               <Image
+                quality={100}
                 className="card__image"
                 src="/images/design-projects/thumbs/thumb-dd-menu.jpg"
                 fill
@@ -158,10 +168,11 @@ const WorksDesign = (): React.ReactElement => {
           </Link>
         </article>
 
-        <article className="card">
+        <article className="card" data-aos="fade-up">
           <Link href="/design-projects/brotes-verdes">
             <div className="card__image-container card__image-container--design">
               <Image
+                quality={100}
                 className="card__image"
                 src="/images/design-projects/thumbs/thumb-brotes-verdes.jpg"
                 fill
@@ -177,10 +188,11 @@ const WorksDesign = (): React.ReactElement => {
           </Link>
         </article>
 
-        <article className="card">
+        <article className="card" data-aos="fade-up">
           <Link href="/design-projects/salva">
             <div className="card__image-container card__image-container--design">
               <Image
+                quality={100}
                 className="card__image"
                 src="/images/design-projects/thumbs/thumb-salva.jpg"
                 fill
@@ -196,10 +208,11 @@ const WorksDesign = (): React.ReactElement => {
           </Link>
         </article>
 
-        <article className="card">
+        <article className="card" data-aos="fade-up">
           <Link href="/design-projects/gmm">
             <div className="card__image-container card__image-container--design">
               <Image
+                quality={100}
                 className="card__image"
                 src="/images/design-projects/thumbs/thumb-gmm.jpg"
                 fill

@@ -1,17 +1,19 @@
 import React from "react";
 import Image from "next/image";
-import "../sass/styles.scss";
 import Link from "next/link";
 
 const WorksWeb = (): React.ReactElement => {
   return (
     <>
       <section id="web">
-        <h3 className="title-line">Web development projects</h3>
+        <h3 className="title-line" data-aos="fade-right">
+          Web development projects
+        </h3>
         <div className="card-container">
-          <article className="card">
+          <article className="card" data-aos="fade-up">
             <div className="card__image-container">
               <Image
+                quality={100}
                 className="card__image"
                 src="/images/web-projects/work-web-gc.webp"
                 fill
@@ -45,9 +47,10 @@ const WorksWeb = (): React.ReactElement => {
             </div>
           </article>
 
-          <article className="card">
+          <article className="card" data-aos="fade-up">
             <div className="card__image-container">
               <Image
+                quality={100}
                 className="card__image"
                 src="/images/web-projects/work-web-pp.webp"
                 fill
@@ -81,9 +84,10 @@ const WorksWeb = (): React.ReactElement => {
             </div>
           </article>
 
-          <article className="card">
+          <article className="card" data-aos="fade-up">
             <div className="card__image-container">
               <Image
+                quality={100}
                 className="card__image"
                 src="/images/web-projects/work-web-c4.webp"
                 fill
@@ -118,9 +122,10 @@ const WorksWeb = (): React.ReactElement => {
             </div>
           </article>
 
-          <article className="card">
+          <article className="card" data-aos="fade-up">
             <div className="card__image-container">
               <Image
+                quality={100}
                 className="card__image"
                 src="/images/web-projects/work-web-ca.webp"
                 fill
@@ -155,9 +160,10 @@ const WorksWeb = (): React.ReactElement => {
             </div>
           </article>
 
-          <article className="card">
+          <article className="card" data-aos="fade-up">
             <div className="card__image-container">
               <Image
+                quality={100}
                 className="card__image"
                 src="/images/web-projects/work-web-pf.webp"
                 fill

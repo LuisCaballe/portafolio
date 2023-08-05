@@ -6,7 +6,9 @@ const Footer = (): React.ReactElement => {
     <footer id="contact">
       <div className="footer">
         <div className="footer__container">
-          <h3 className="title-line title-line--contact">Contact</h3>
+          <h3 className="title-line title-line--contact" data-aos="fade-right">
+            Contact
+          </h3>
           <div className="footer__content">
             <p className="footer__text">
               If you have any questions about me or you just want to say hello,
