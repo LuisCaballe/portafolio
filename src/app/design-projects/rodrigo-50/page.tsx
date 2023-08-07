@@ -1,5 +1,11 @@
 import Image from "next/image";
 import React from "react";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Luis Caballé - Rodrigo 50",
+  description: "A sample of graphic design work for Rodrigo 50 by Luis Caballé",
+};
 
 const Rodrigo50Page = (): React.ReactElement => {
   return (

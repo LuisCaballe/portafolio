@@ -1,5 +1,12 @@
 import Image from "next/image";
 import React from "react";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Luis Caballé - Logos",
+  description:
+    "A sample of graphic design work of several logos by Luis Caballé",
+};
 
 const LogosPage = (): React.ReactElement => {
   return (

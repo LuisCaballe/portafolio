@@ -51,6 +51,7 @@ export default function RootLayout({
         <button
           className={`top-link${isScrollDown ? " top-link--visible" : ""}`}
           onClick={scrollToTop}
+          aria-label="Back to top button"
         ></button>
       </body>
     </html>

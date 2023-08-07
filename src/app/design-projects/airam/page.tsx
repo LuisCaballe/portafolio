@@ -1,5 +1,11 @@
 import Image from "next/image";
 import React from "react";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Luis Caballé - Airam",
+  description: "A sample of graphic design work for Airam by Luis Caballé",
+};
 
 const AiramPage = (): React.ReactElement => {
   return (

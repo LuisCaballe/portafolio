@@ -1,5 +1,12 @@
 import Image from "next/image";
 import React from "react";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Luis Caballé - Sentits Bcn",
+  description:
+    "A sample of graphic design work for Sentits Bcn by Luis Caballé",
+};
 
 const SentitsBcnPage = (): React.ReactElement => {
   return (
