@@ -1,27 +1,50 @@
-import type { Metadata } from "next";
+"use client";
+
+import { useEffect, useState } from "react";
+import Aos from "aos";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import "aos/dist/aos.css";
 import "../sass/styles.scss";
-
-export const metadata: Metadata = {
-  title: "Luis' portfolio",
-  description:
-    "Luis Caballé's online portfolio. A sample of graphic design and web development work I have done to date.",
-};
 
 export default function RootLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
+  const [isScrollDown, setIsScrollDown] = useState(false);
+
+  const toggleBackToTop = () => {
+    const scrollTop = document.documentElement.scrollTop;
+    scrollTop > 200 ? setIsScrollDown(true) : setIsScrollDown(false);
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", toggleBackToTop);
+    Aos.init({ duration: 800, once: true });
+  }, []);
+
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
   return (
     <html lang="en">
       <body>
-        <div className="main-container">
-          <Header />
-          {children}
+        <div>
+          <div className="main-container">
+            <Header />
+            {children}
+          </div>
+          <Footer />
         </div>
-        <Footer />
+        <button
+          className={`top-link${isScrollDown ? " top-link--visible" : ""}`}
+          onClick={scrollToTop}
+        ></button>
       </body>
     </html>
   );

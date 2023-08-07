@@ -131,10 +131,11 @@
 
   &__links {
     display: flex;
+    flex-wrap: wrap;
     align-items: flex-end;
     justify-content: center;
     flex-grow: 2;
-    gap: 2rem;
+    column-gap: 2rem;
 
     > .link {
       margin-top: 1rem;
@@ -211,6 +212,7 @@
 
 .footer {
   background-color: variables.$primary-color;
+  min-width: 300px;
 
   &--copyright {
     background-color: variables.$secondary-color;
