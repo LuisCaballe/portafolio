@@ -7,6 +7,13 @@ import Footer from "../components/Footer";
 import "aos/dist/aos.css";
 import "../sass/styles.scss";
 
+import { Plus_Jakarta_Sans } from "next/font/google";
+
+const plusJakartaSans = Plus_Jakarta_Sans({
+  subsets: ["latin"],
+  display: "swap",
+});
+
 export default function RootLayout({
   children,
 }: {
@@ -32,7 +39,7 @@ export default function RootLayout({
   };
 
   return (
-    <html lang="en">
+    <html lang="en" className={plusJakartaSans.className}>
       <body>
         <div>
           <div className="main-container">
