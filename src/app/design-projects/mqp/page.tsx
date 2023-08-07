@@ -1,5 +1,12 @@
 import Image from "next/image";
 import React from "react";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Luis Caballé - Més Que Paraules",
+  description:
+    "A sample of graphic design work for Més Que Paraules by Luis Caballé",
+};
 
 const MesQueParaulesPage = (): React.ReactElement => {
   return (

@@ -1,5 +1,11 @@
 import Image from "next/image";
 import React from "react";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Luis Caballé - Delideluxe tea menu",
+  description: "A sample of graphic design work for Delideluxe by Luis Caballé",
+};
 
 const DeliDeluxeTeaPage = (): React.ReactElement => {
   return (

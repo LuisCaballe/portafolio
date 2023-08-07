@@ -6,7 +6,7 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Luis Caballé",
   description:
-    "Luis Caballé's online portfolio. A sample of graphic design and web development work I have done to date.",
+    "Luis Caballé's online portfolio. A sample of graphic design and web development work I have done to date",
 };
 
 export default function Home() {
