@@ -1,5 +1,4 @@
 import React from "react";
-import Logo from "../app/icon.svg";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -10,10 +9,10 @@ export const Header = (): React.ReactElement => {
         <Link href="/">
           <Image
             className="header__logo-imago"
-            src={Logo}
+            src="/images/logo-animated.webp"
             alt="Luis Caballé's logo"
             priority={true}
-            width="75"
+            width="94"
             height="70"
           />
         </Link>
