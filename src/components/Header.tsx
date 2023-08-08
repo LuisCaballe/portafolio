@@ -12,7 +12,7 @@ export const Header = (): React.ReactElement => {
             src="/images/logo-animated.webp"
             alt="Luis Caballé's logo"
             priority={true}
-            width="94"
+            width="93"
             height="70"
           />
         </Link>
