@@ -4,7 +4,7 @@ import WorksDesign from "../components/WorksDesign";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Luis Caballé",
+  title: "Luis Caballé's Portfolio",
   description:
     "Luis Caballé's online portfolio. A sample of graphic design and web development work I have done to date",
 };
